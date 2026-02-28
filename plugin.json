@@ -1,0 +1,25 @@
+{
+  "name": "pragmatic-service-modeling",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "AI-powered AWS service modeling advisor — compute, database, and messaging decisions",
+  "author": "Rodrigo Vazquez",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "pragmatic-compute-expert",
+      "path": "skills/pragmatic-compute-expert",
+      "description": "AWS compute selection: Lambda vs ECS vs EKS"
+    },
+    {
+      "name": "pragmatic-db-expert",
+      "path": "skills/pragmatic-db-expert",
+      "description": "AWS database selection: DynamoDB vs DocumentDB vs Aurora DSQL"
+    },
+    {
+      "name": "pragmatic-messaging-expert",
+      "path": "skills/pragmatic-messaging-expert",
+      "description": "AWS messaging selection: SQS vs SNS vs EventBridge vs Kinesis vs MSK"
+    }
+  ]
+}

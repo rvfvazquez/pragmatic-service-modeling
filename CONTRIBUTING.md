@@ -71,10 +71,11 @@ The `references/` file is the decision brain of the skill. It should include:
 
 1. Fork this repository
 2. Create a branch: `git checkout -b skill/your-skill-name` or `fix/description`
-3. Follow the skill structure above
-4. Test your skill in Claude (Cowork or Claude Code) with at least 3 different conversation scenarios
-5. Add at least one example to `examples/your-category/`
-6. Open a pull request with the PR template filled out
+3. Follow the skill structure above and place your skill under `skills/your-skill-name/`
+4. Register the new skill in `plugin.json` by adding an entry to the `skills` array
+5. Test your skill in Claude (Cowork or Claude Code) with at least 3 different conversation scenarios
+6. Add at least one example to `examples/your-category/`
+7. Open a pull request with the PR template filled out
 
 ### Quality checklist
 
@@ -164,10 +165,11 @@ Formato estruturado que Claude deve usar na recomendação final.
 
 1. Faça um fork deste repositório
 2. Crie uma branch: `git checkout -b skill/nome-da-sua-skill` ou `fix/descricao`
-3. Siga a estrutura de skill acima
-4. Teste sua skill no Claude (Cowork ou Claude Code) com pelo menos 3 cenários de conversa diferentes
-5. Adicione pelo menos um exemplo em `examples/sua-categoria/`
-6. Abra um pull request com o template de PR preenchido
+3. Siga a estrutura de skill acima e coloque sua skill em `skills/nome-da-sua-skill/`
+4. Registre a nova skill no `plugin.json` adicionando uma entrada no array `skills`
+5. Teste sua skill no Claude (Cowork ou Claude Code) com pelo menos 3 cenários de conversa diferentes
+6. Adicione pelo menos um exemplo em `examples/sua-categoria/`
+7. Abra um pull request com o template de PR preenchido
 
 ### Checklist de qualidade
 
