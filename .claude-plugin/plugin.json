@@ -1,0 +1,8 @@
+{
+  "name": "pragmatic-service-modeling",
+  "description": "AI-powered AWS service modeling advisor — compute, database, and messaging decisions",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rodrigo Vazquez"
+  }
+}

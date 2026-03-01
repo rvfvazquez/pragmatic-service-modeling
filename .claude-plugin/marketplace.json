@@ -1,0 +1,14 @@
+{
+  "name": "pragmatic-service-modeling",
+  "owner": {
+    "name": "Rodrigo Vazquez"
+  },
+  "plugins": [
+    {
+      "name": "pragmatic-service-modeling",
+      "source": ".",
+      "description": "AI-powered AWS service modeling advisor — compute, database, and messaging decisions",
+      "version": "1.0.0"
+    }
+  ]
+}

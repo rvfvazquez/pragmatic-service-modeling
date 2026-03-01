@@ -30,13 +30,24 @@ Each skill follows the same pattern:
 
 ### Installation
 
+#### Via Claude Code (recommended)
+
+Run these two commands inside Claude Code:
+
+```
+/plugin marketplace add rvfvazquez/pragmatic-service-modeling
+/plugin install pragmatic-service-modeling@pragmatic-service-modeling
+```
+
+That's it — all three experts are available immediately.
+
 #### Via Cowork (desktop app)
 
 1. Download `pragmatic-service-modeling.skill` from the [releases page](../../releases)
 2. Open the Cowork app and go to **Plugins → Install from file**
 3. Select the `.skill` file — all three experts are installed at once
 
-#### Via Claude Code
+#### Manual (Claude Code)
 
 ```bash
 # Clone the repository
@@ -63,7 +74,9 @@ See the [examples/](./examples/) folder for complete conversation walkthroughs.
 
 ```
 pragmatic-service-modeling/
-├── plugin.json                        ← Plugin manifest (bundles all skills)
+├── .claude-plugin/
+│   ├── marketplace.json               ← Makes this repo a Claude Code marketplace
+│   └── plugin.json                    ← Plugin manifest (name, version, author)
 ├── README.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -125,13 +138,24 @@ Cada skill segue o mesmo padrão:
 
 ### Instalação
 
+#### Via Claude Code (recomendado)
+
+Execute esses dois comandos dentro do Claude Code:
+
+```
+/plugin marketplace add rvfvazquez/pragmatic-service-modeling
+/plugin install pragmatic-service-modeling@pragmatic-service-modeling
+```
+
+Pronto — os três experts ficam disponíveis imediatamente.
+
 #### Via Cowork (app desktop)
 
 1. Baixe `pragmatic-service-modeling.skill` na [página de releases](../../releases)
 2. Abra o Cowork e vá em **Plugins → Instalar do arquivo**
 3. Selecione o arquivo `.skill` — os três experts são instalados de uma vez
 
-#### Via Claude Code
+#### Manual (Claude Code)
 
 ```bash
 # Clone o repositório
