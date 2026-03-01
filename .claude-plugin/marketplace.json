@@ -6,7 +6,10 @@
   "plugins": [
     {
       "name": "pragmatic-service-modeling",
-      "source": ".",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rvfvazquez/pragmatic-service-modeling.git"
+      },
       "description": "AI-powered AWS service modeling advisor — compute, database, and messaging decisions",
       "version": "1.0.0"
     }
