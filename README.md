@@ -17,7 +17,7 @@
 | Skill | What it decides | Key services covered |
 |---|---|---|
 | [pragmatic-compute-expert](./skills/pragmatic-compute-expert/) | Which compute model to use | Lambda, ECS, EKS, Fargate, EC2 |
-| [pragmatic-db-expert](./skills/pragmatic-db-expert/) | Which database to use | DynamoDB, DocumentDB, Aurora DSQL |
+| [pragmatic-db-expert](./skills/pragmatic-db-expert/) | Which database to use | DynamoDB, DocumentDB, Aurora DSQL, ElastiCache, MemoryDB, Timestream |
 | [pragmatic-messaging-expert](./skills/pragmatic-messaging-expert/) | Which messaging service to use | SQS, SNS, EventBridge, Kinesis, MSK |
 
 ### How it works
@@ -125,7 +125,7 @@ We welcome new skills, improved decision logic, and updated references. See [CON
 | Skill | O que decide | Serviços cobertos |
 |---|---|---|
 | [pragmatic-compute-expert](./skills/pragmatic-compute-expert/) | Qual modelo de compute usar | Lambda, ECS, EKS, Fargate, EC2 |
-| [pragmatic-db-expert](./skills/pragmatic-db-expert/) | Qual banco de dados usar | DynamoDB, DocumentDB, Aurora DSQL |
+| [pragmatic-db-expert](./skills/pragmatic-db-expert/) | Qual banco de dados usar | DynamoDB, DocumentDB, Aurora DSQL, ElastiCache, MemoryDB, Timestream |
 | [pragmatic-messaging-expert](./skills/pragmatic-messaging-expert/) | Qual serviço de mensageria usar | SQS, SNS, EventBridge, Kinesis, MSK |
 
 ### Como funciona
